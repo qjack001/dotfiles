@@ -1,0 +1,41 @@
+
+keybinds clear-defaults=true {
+	locked {
+		bind "Ctrl g" { SwitchToMode "Normal"; }
+	}
+    shared_except "locked" {
+        bind "Ctrl n" "Ctrl t" "Alt t" { NewPane; }
+        bind "Ctrl w" "Alt w" { CloseFocus; }
+        
+        bind "Alt Left" { MoveFocusOrTab "Left"; }
+        bind "Alt Right" { MoveFocusOrTab "Right"; }
+        bind "Alt Down" { MoveFocus "Down"; }
+        bind "Alt Up" { MoveFocus "Up"; }
+        
+        bind "Alt =" "Alt +" { Resize "Increase"; }
+        bind "Alt -" { Resize "Decrease"; }
+    }
+}
+
+on_force_close "quit"
+default_shell "fish"
+pane_frames false
+mouse_mode true
+copy_on_select false
+
+themes {
+	default {
+		fg 7
+		bg 23
+		black 0
+		red 1
+		green 2
+		yellow 3
+		blue 4
+		magenta 5
+		cyan 6
+		white 7
+		orange 208
+		grey 247
+	}
+}
