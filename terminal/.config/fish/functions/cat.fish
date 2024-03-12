@@ -1,3 +1,3 @@
-function cat --wraps='bat --theme=ansi' --description 'Display file contents'
-    bat --theme=ansi $argv
+function cat --wraps='bat' --description 'Display file contents'
+    bat $argv
 end
