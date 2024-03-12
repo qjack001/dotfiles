@@ -1,0 +1,6 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "Ctrl-MouseRight": "MouseMultiCursor",
+    "Ctrl-x": "Quit",
+    "CtrlUnderscore": "lua:comment.comment"
+}
