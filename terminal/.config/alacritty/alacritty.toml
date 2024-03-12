@@ -1,0 +1,21 @@
+import = [
+#	 "~/.config/alacritty/light-theme.toml",
+	 "~/.config/alacritty/dark-theme.toml",
+ ]
+
+[window]
+option_as_alt = 'Both'
+padding = { x = 20, y = 25 }
+decorations = "Buttonless"
+
+[font]
+normal = { family = "SF Mono", style = "Regular" }
+size = 12
+offset = { x = 1, y = 8 }
+glyph_offset = { x = 0, y = 4 }
+
+[mouse]
+hide_when_typing = true
+
+#[shell]
+#program = "/opt/homebrew/bin/zellij"
