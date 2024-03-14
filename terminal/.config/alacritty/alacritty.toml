@@ -4,9 +4,9 @@ import = [
  ]
 
 [window]
-option_as_alt = 'Both'
-padding = { x = 20, y = 25 }
 decorations = "Buttonless"
+padding = { x = 20, y = 25 }
+option_as_alt = 'Both'
 
 [font]
 normal = { family = "SF Mono", style = "Regular" }
@@ -17,5 +17,9 @@ glyph_offset = { x = 0, y = 4 }
 [mouse]
 hide_when_typing = true
 
-#[shell]
-#program = "/opt/homebrew/bin/zellij"
+[shell]
+program = "/opt/homebrew/bin/fish"
+args = [ "--login" ]
+
+[debug]
+# render_timer = true
