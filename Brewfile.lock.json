@@ -631,6 +631,10 @@
             }
           }
         }
+      },
+      "oven-sh/bun/bun": {
+        "version": "1.0.30",
+        "bottle": false
       }
     },
     "cask": {
@@ -659,7 +663,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.87.1",
+        "version": "1.87.2",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -686,6 +690,17 @@
       "vue.volar": null,
       "vue.vscode-typescript-vue-plugin": null,
       "wayou.vscode-icons-mac": null
+    },
+    "tap": {
+      "homebrew/bundle": {
+        "revision": "d4d7fd2135323340eb1c1a16af798f2ffeb19ae4"
+      },
+      "homebrew/core": {
+        "revision": "7b33731f5fd42c54312029a8837b131159825f2e"
+      },
+      "oven-sh/bun": {
+        "revision": "0b6e68e27ed88091a340d2ac1040d0f35f5c2a41"
+      }
     }
   },
   "system": {
