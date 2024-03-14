@@ -1,6 +1,6 @@
 import = [
-#	 "~/.config/alacritty/light-theme.toml",
-	 "~/.config/alacritty/dark-theme.toml",
+	# auto-configured by `theme` function
+	 "~/.config/alacritty/selected-theme.toml",
  ]
 
 [window]
