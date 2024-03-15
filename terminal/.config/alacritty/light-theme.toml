@@ -5,12 +5,13 @@
 [colors.primary]
 background = '#fdf6e3'
 foreground = '#5c6a72'
+dim_foreground = '#efebd4'
 
 # Normal colors
 [colors.normal]
 black   = '#5c6a72'
 red     = '#f85552'
-green   = '#8da101'
+green   = '#42aa81'
 yellow  = '#dfa000'
 blue    = '#3a94c5'
 magenta = '#df69ba'
@@ -19,11 +20,26 @@ white   = '#e0dcc7'
 
 # Bright Colors
 [colors.bright]
-black   = '#5c6a72'
-red     = '#f85552'
-green   = '#8da101'
+black   = '#A8A395'
+red     = '#e66868'
+green   = '#93b259'
 yellow  = '#dfa000'
 blue    = '#3a94c5'
 magenta = '#df69ba'
-cyan    = '#35a77c'
+cyan    = '#8da101'
+white   = '#efebd4'
+
+# Dim colors
+[colors.dim]
+black   = '#829181'
+red     = '#f85552'
+green   = '#93b259'
+yellow  = '#dfa000'
+blue    = '#3a94c5'
+magenta = '#df69ba'
+cyan    = '#8da101'
 white   = '#e0dcc7'
+
+[colors.selection]
+text = 'CellForeground'
+background = '#EAEDC8'
