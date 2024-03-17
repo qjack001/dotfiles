@@ -1,3 +1,3 @@
 function nvm
-    sh ~/.scripts/nvm_loader.sh $argv
+    sh ~/.config/nvm/nvm-loader.sh $argv
 end
