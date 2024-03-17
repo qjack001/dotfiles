@@ -12,6 +12,8 @@ brew "git"
 brew "gnupg"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Command-line note taker
+brew "jrnl"
 # Modern and intuitive terminal-based text editor
 brew "micro"
 # Platform built on V8 to build network applications
