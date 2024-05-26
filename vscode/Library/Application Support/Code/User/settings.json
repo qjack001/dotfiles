@@ -197,4 +197,5 @@
 	"window.titleBarStyle": "native",
 	"editor.lineNumbers": "off",
 	"workbench.sash.size": 1,
+	"workbench.editor.tabActionLocation": "left",
 }
