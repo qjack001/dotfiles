@@ -133,7 +133,7 @@
 	"evenBetterToml.formatter.allowedBlankLines": 3,
 	"evenBetterToml.formatter.columnWidth": 120,
 	"workbench.editor.showTabs": "none",
-	"editor.lightbulb.enabled": false,
+	"editor.lightbulb.enabled": "off",
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.verticalScrollbarSize": 0,
 	"editor.showFoldingControls": "never",
@@ -142,33 +142,12 @@
 	"workbench.startupEditor": "readme",
 	"window.autoDetectHighContrast": false,
 	"terminal.integrated.profiles.osx": {
-		"bash": {
-			"path": "bash",
-			"args": [
-				"-l"
-			],
-			"icon": "terminal-bash"
-		},
-		"zsh": {
-			"path": "zsh",
-			"args": [
-				"-l"
-			]
-		},
 		"fish": {
-			"path": "fish",
+			"path": "/opt/homebrew/bin/fish",
 			"args": [
 				"-l"
 			]
 		},
-		"tmux": {
-			"path": "tmux",
-			"icon": "terminal-tmux"
-		},
-		"pwsh": {
-			"path": "pwsh",
-			"icon": "terminal-powershell"
-		}
 	},
 	"terminal.integrated.shellIntegration.history": 10,
 	"terminal.integrated.scrollback": 100,
