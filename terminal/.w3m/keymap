@@ -1,0 +1,186 @@
+# help: `?`
+# exit: `q`
+
+# history: `esc+h`
+# inspect source: `esc+i`
+# show links: `esc+l`
+# settings: `esc+s`
+
+# go back: `delete`
+# open page in browser: `o`
+# follow link: `enter`
+# open link in new tab: `alt+enter`
+# open link in browser: `alt+o`
+# close tab: `w`
+# move to prev tab: `[`
+# move to next tab: `]`
+
+# focus next link: `tab`
+# focus prev link: `alt+tab`
+# screenshot: `ctrl-s`	
+# reload: `ctrl-r`
+
+
+# clear existing bindings
+
+keymap	ESC-i	NULL
+keymap	ESC-a	NULL
+keymap	SPC		NULL
+keymap	C-@		NULL
+keymap	C-a		NULL
+keymap	C-b		NULL
+keymap	C-e		NULL
+keymap	C-f		NULL
+keymap	C-g		NULL
+keymap	C-j		NULL
+keymap	C-k		NULL
+keymap	C-l		NULL
+keymap	C-m		NULL
+keymap	C-n		NULL
+keymap	C-p		NULL
+keymap	C-w		NULL
+keymap	C-w		NULL
+keymap	C-v		NULL
+keymap	C-w		NULL
+keymap	C-z		NULL
+keymap	C-h		NULL
+keymap	M-v		NULL
+keymap	!		NULL
+keymap	\"		NULL
+keymap	#		NULL
+keymap	$		NULL
+keymap	(		NULL
+keymap	)		NULL
+keymap	+		NULL
+keymap	,		NULL
+keymap	-		NULL
+keymap	.		NULL
+keymap	:		NULL
+keymap	";"		NULL
+keymap	<		NULL
+keymap	=		NULL
+keymap	>		NULL
+keymap	?		NULL
+keymap	@		NULL
+keymap	B		NULL
+keymap	D		NULL
+keymap	E		NULL
+keymap	F		NULL
+keymap	G		NULL
+keymap	I		NULL
+keymap	J		NULL
+keymap	K		NULL
+keymap	M		NULL
+keymap	H		NULL
+keymap	S		NULL
+keymap	R		NULL
+keymap	L		NULL
+keymap	T		NULL
+keymap	U		NULL
+keymap	V		NULL
+keymap	W		NULL
+keymap	Z		NULL
+keymap	{		NULL
+keymap	}		NULL
+keymap	\^		NULL
+keymap	a		NULL
+keymap	b		NULL
+keymap	c		NULL
+keymap	v		NULL
+keymap	g		NULL
+keymap	h		NULL
+keymap	i		NULL
+keymap	j		NULL
+keymap	k		NULL
+keymap	l		NULL
+keymap	m		NULL
+keymap	M-q		NULL
+keymap	r		NULL
+keymap	s		NULL
+keymap	u		NULL
+keymap	M-w		NULL
+keymap	z		NULL
+keymap	|		NULL
+keymap	M-TAB	NULL
+keymap	M-C-j	NULL
+keymap	M-C-m	NULL
+keymap	M-:		NULL
+keymap	M-<		NULL
+keymap	M->		NULL
+keymap	M-W		NULL
+keymap	M-c		NULL
+keymap	M-e		NULL
+keymap	M-g		NULL
+keymap	M-k		NULL
+keymap	M-q		NULL
+keymap	M-m		NULL
+keymap	M-n		NULL
+keymap	M-q		NULL
+keymap	M-p		NULL
+keymap	M-t		NULL
+keymap	M-u		NULL
+keymap	M-v		NULL
+keymap	M-w		NULL
+keymap	M-[E	NULL
+keymap	M-[L	NULL
+keymap	M-[Z	NULL
+keymap	M-[1~	NULL
+keymap	M-[2~	NULL
+keymap	M-[4~	NULL
+keymap	M-[5~	NULL
+keymap	M-[6~	NULL
+keymap	M-[28~	NULL
+
+
+# custom key bindings
+
+keymap	?		HELP
+keymap	q		QUIT
+keymap	Q		EXIT
+
+keymap	ESC-h	HISTORY
+keymap	ESC-i	VIEW
+keymap	ESC-l	LIST
+keymap	ESC-s	OPTIONS
+
+keymap	SPC		MENU
+
+keymap	DEL		BACK
+keymap	C-j		GOTO_LINK
+keymap	M-C-j	TAB_LINK
+
+keymap	o		EXTERN
+keymap	M-o		EXTERN_LINK
+
+keymap	w		CLOSE_TAB
+keymap	[		PREV_TAB
+keymap	]		NEXT_TAB
+
+keymap	TAB		NEXT_LINK
+keymap	M-TAB	PREV_LINK
+keymap	M-[Z	PREV_LINK
+
+keymap	/		SEARCH
+keymap	n		SEARCH_NEXT
+keymap	N		SEARCH_PREV
+
+keymap	(		UNDO
+keymap	)		REDO
+keymap	!		SHELL
+
+keymap	^s		SAVE_SCREEN
+keymap	^r		RELOAD
+
+keymap	T		NEW_TAB
+keymap	l		GOTO
+keymap	L		GOTO
+
+keymap	b		ADD_BOOKMARK
+keymap	ESC-b	BOOKMARK
+
+keymap	UP		MOVE_UP
+keymap	DOWN	MOVE_DOWN
+keymap	RIGHT	MOVE_RIGHT
+keymap	LEFT	MOVE_LEFT
+
+
