@@ -1,4 +1,7 @@
 {
     "colorscheme": "simple",
-    "diffgutter": true
+    "diffgutter": true,
+    "softwrap": true,
+    "wordwrap": true,
+    "mkparents": true
 }
